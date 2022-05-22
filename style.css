@@ -1,0 +1,93 @@
+/* font-ubuntu */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+
+body,
+html {
+  margin: 5em;
+  text-align: center;
+  background-color: #242733;
+}
+h3 {
+  font-size: 4em;
+  font-family: "Ubuntu", sans-serif;
+  color: #4457a0;
+}
+#project {
+  width: 50%;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#plus {
+  background-color: #4457a0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+}
+.list {
+  color: #4457a0;
+  font-size: 1.5em;
+  font-weight: bold;
+  list-style: none;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 70px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+#close {
+  margin-left: 4em;
+}
+.done {
+  text-decoration: line-through;
+}
+button {
+  margin-left: 20px;
+  background-color: #4457a0;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  line-height: 30px;
+}
+/* media query */
+@media screen and (max-width: 425px) {
+  html,
+  body {
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .input-data {
+    display: flex;
+  }
+  #project {
+    width: 150px;
+  }
+  .list :nth-child(n) {
+    display: flex;
+    font-size: 15px;
+    float: left;
+  }
+  button {
+    padding: 15px 10px;
+    font-size: 10px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  body {
+    margin: 0;
+  }
+  h3 {
+    font-size: 15px;
+  }
+}
